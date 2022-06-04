@@ -1,0 +1,71 @@
+body {
+    margin: 0px;
+    background-size: cover; 
+    background-image: url('/asset/bg3.svg');
+    
+
+}
+
+#welcome {
+    margin-top: 10%;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+}
+h1,h2{
+    font-family: 'Bebas Neue', cursive;
+
+}
+nav{
+    /* font-family: 'Overpass', sans-serif; */
+
+    background-color: rgba(13, 57, 160, 0.585);
+}
+
+/* Button */
+
+.btn-group{
+    justify-content: center;
+}
+
+#btn{
+    margin: 10%;
+    width: 200px;
+    border-radius: 25px;
+}
+
+/* Form Login dan Register User */
+
+#form-regis{
+    margin-top: 25%;
+    /* justify-content: center; */
+}
+
+/* Form setelah registrasi */
+
+#form-registered{
+    margin-top: 5%;
+    /* margin: auto; */
+
+}
+.card {
+    border-radius: 25px;
+}
+p{
+    font-style: normal;
+    font-size: large;
+}
+
+@media(min-width:500px){
+    #form{
+        /* margin-top: 100px !important; */
+        width: 32rem !important;
+    }
+    #form-regis{
+        margin-top: 3.5%;
+        /* justify-content: center; */
+    }
+    #card{
+        width: 24rem !important;
+    }
+    
+}
